@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+  font-family: 'Poppins', sans-serif;
+}
+body{
+
+ display: grid;
+ grid-template-areas: "main main";
+ background-color: #FAF7FD;
+ color: #BB99DD
+}
+
+main{
+  margin: 0 auto;
+  grid-area: main;
+  height: 100vw;
+  width: 100vh;
+  flex-direction: column;
+  
+}
+
+.caixadafoto{
+  max-width:150px;
+  max-height:150px;
+  border: 3px solid #BB99DD;
+  border-radius:150px;
+  margin-top: 20px;
+  margin-left: 300px;
+  
+}
+
+
+.fotoperfil{
+  border-radius:120px ;
+  max-width:195px;
+  max-height:145px;
+  margin-left: 1px;
+  margin-top: 2px;
+}
+
+.linkdoperfil{
+  padding: 5px;
+  padding-bottom: 20px;
+}
+
+.linkdoperfil a{
+  margin-left: 40px;
+  padding: 20px;
+}
+
+a{
+  text-decoration: none;
+  color: #BB99DD ; 
+  margin-left: 100px;
+}
+
+div#botoes div{
+  margin: 5px;
+  position: relative;
+  left: 100px;
+  flex-direction: column;  
+  margin-left: 150px;
+  
+}
+
+
+.box1{
+width: 250px;
+height: 15px;
+padding: 8px;
+margin: 8px;
+border-radius: 5px;
+border: 2px solid #BB99DD;
+}
+
+.box2{
+  width: 250px;
+  height: 15px;
+  padding: 8px;
+  margin: 8px;
+  border-radius: 5px;
+  border: 2px solid #BB99DD;
+}
+
+.box3{
+  width: 250px;
+  height: 15px;
+  padding: 8px;
+  margin: 8px;
+  border-radius: 5px;
+  border: 2px solid #BB99DD;
+}
+
+.box4{
+  width: 250px;
+  height: 15px;
+  padding: 8px;
+  margin: 8px;
+  border-radius: 5px;
+  border: 2px solid #BB99DD;
+}
+
+.tagsdasredes{
+  margin-left: 250px;
+  margin-top: 20px;
+}
+
+.tagsdasredes a{
+  padding: 10px;
+  justify-content: space-between;
+  margin-left: 5px;
+    
+}
+
+
+
